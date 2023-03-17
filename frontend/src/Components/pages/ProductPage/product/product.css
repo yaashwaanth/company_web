@@ -1,0 +1,120 @@
+#Productimg {
+  height: 400px;
+  width: 400px;
+  border-radius: 12px;
+}
+#Productimgcontaner {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 10px;
+}
+#Productimgcontaner:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+}
+.Productcontaner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: -100px;
+}
+#Productdetialscontaner {
+  margin-left: 100px;
+}
+.Productname {
+  font-size: 50px;
+  margin: 10px;
+}
+.Productnameh3 {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.productbutoon {
+  border: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(76, 170, 76);
+  color: white;
+  margin: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+@media screen and (max-width: 720px) {
+  #Productimg {
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+  }
+  #Productdetialscontaner {
+    margin-left: 50px;
+  }
+  .Productname {
+    font-size: 20px;
+    margin: 50px;
+  }
+  .Productnameh3 {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .productbutoon {
+    border: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(76, 170, 76);
+    color: white;
+    margin: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 480px)  {
+    #Productimg {
+      height: 100px;
+      width: 100px;
+      border-radius: 6px;
+    }
+    #Productdetialscontaner {
+      margin-left: 25px;
+    }
+    .Productname {
+      font-size: 10px;
+      margin: 25px;
+    }
+    .Productnameh3 {
+      font-size: 10px;
+      margin-left: 3px;
+      margin-right: 3px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .productbutoon {
+      border: none;
+      padding-left: 6px;
+      padding-right: 6px;
+      font-size: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      background-color: rgb(76, 170, 76);
+      color: white;
+      margin: 10px;
+      border-radius: 3px;
+      font-weight: bold;
+    }
+  }

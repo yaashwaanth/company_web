@@ -1,0 +1,142 @@
+#imgbar{
+    width: 100vw;
+    height: 85vh;
+    background-image:url("./img.jpg") ;
+    background-repeat: no-repeat;
+   background-position: center;
+    background-size: cover;
+    overflow-y: hidden;
+
+}
+#fad{
+    background-color: rgba(0, 0, 0, 0.542);
+    margin-top: 0px;
+    width: 100vw;
+    height: 85vh;
+}
+#tractorback {
+    font-family:cursive;
+ color: white;
+
+}
+
+
+#tractorback  {
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+   top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+#tag1,#tag2{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    height: 7vh;
+   color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+#contont{
+    margin-top: 200px;
+}
+       
+.buttoncontonarformidpage{
+    display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+#Productsbtn{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+    border: 2px solid white;
+    margin: 10px;
+    align-items: center;
+    cursor: pointer;
+    width: 120px;
+    text-align: center;
+    padding: 12px;
+    font-family: initial;
+
+
+}
+
+#Productsbtn:hover{
+    transform: scale(1.1);
+    
+}
+#cintactusbtn{
+    background-color: #58AB48;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: white;
+    margin: 10px;
+    align-items: center;
+    cursor: pointer;
+    width: 120px;
+    text-align: center;
+    padding: 12px;
+    font-family: initial;
+
+}
+#cintactusbtn:hover{
+    transform: scale(1.1);
+    
+}
+
+#tag2{
+    margin-top: -25px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .imgbar{
+        margin-top: 10px;
+        width: 100vw;
+        height: 85vh;
+        background-image:url("./img.jpg") ;
+        background-repeat: no-repeat;
+       background-position: center;
+        background-size: cover;
+    }
+    #tractorback {
+        font-family: "../res/Righteous-Regular.ttf";
+     color: white;
+     font-size: 20px;
+    
+    }
+    #tag1,#tag2{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        height: 6vh;
+       color:white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    #tractorback {
+        font-family: "../res/Righteous-Regular.ttf";
+     color: white;
+     font-size: 12px;
+    
+    }
+  }
+  

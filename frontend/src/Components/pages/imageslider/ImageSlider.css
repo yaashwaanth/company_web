@@ -1,0 +1,30 @@
+#Carouselimagshow{
+  margin: auto;
+    width: 80vw;
+    height: 90vh;
+    color: aqua;
+   
+}
+#Carouselbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxofCarousel{
+    margin: 10px;
+}
+@media screen and (max-width:720px) {
+    #Carouselimagshow{
+        margin: auto;
+          width: 80vw;
+         
+      }
+      .boxofCarousel{
+        margin: 10px;
+    }
+}
+
+  @media screen and (max-width: 480px) {
+   
+  }
+  
