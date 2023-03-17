@@ -22,6 +22,9 @@ yarn-error.log*
 
 
 frontend/node_modules
+frontend/README.md
+
+
 
 backend/node_modules
 backend/config/config.env
